@@ -1,0 +1,43 @@
+{
+  "name": "envlint",
+  "version": "0.1.0",
+  "description": "Catch .env mistakes before they bite: duplicate keys, empty values, drift from .env.example, leaked credentials.",
+  "type": "module",
+  "bin": {
+    "envlint": "bin/envlint.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "dotenv",
+    "env",
+    "environment-variables",
+    "linter",
+    "cli",
+    "config",
+    "secrets",
+    "devops"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangtianbao-debug/envlint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangtianbao-debug/envlint/issues"
+  },
+  "homepage": "https://github.com/wangtianbao-debug/envlint#readme"
+}
